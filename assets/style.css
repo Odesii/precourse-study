@@ -1,0 +1,86 @@
+/* Resetting margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the body */
+body {
+    background-color: #242424;
+    display: flex; /* Make the body a flex container */
+    flex-direction: column; 
+    min-height: 100vh;
+}
+
+/* Styling the header */
+header {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(22, 22, 22);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* Styling the main content */
+main {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Styling the footer */
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(22, 22, 22);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* Styling the footer image */
+footer img {
+    padding: 12px;
+    animation: flash 1s infinite;
+}
+
+/* Defining the flash animation */
+@keyframes flash {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* Styling images */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling unordered lists */
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+    list-style: none; /* Remove default bullet points */
+    text-align: left;
+}
+
+/* Styling list item bullet points */
+ul li::before {
+    content: "•"; /* Add custom bullet points */
+    color: rgb(145, 255, 0); /* Change the color of the bullet points */
+    display: inline-block; 
+    width: 1em; /* Keep the bullet points aligned */
+    margin-left: -1em; /* Keep the bullet points aligned */
+}
+/* Styling the card element */
+
+.card {
+    width: 400px;   
+    background-color: #6e2370;
+    color: #fff;
+    border: 3px solid #c941ff; /* Add 'solid' to make the border visible */
+    border-radius: 15px; /* Add this line to round the corners */
+    box-shadow: 10px 10px 10px rgba(50, 0, 83, 0.5);
+    padding: 20px;
+    margin: 40px auto;
+    text-align: center;
+}
