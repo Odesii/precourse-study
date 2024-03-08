@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slimy Notes</title>
+    <style>
+      body {
+        background-color: #1f1f1f;
+        display: flex; /* Make the body a flex container */
+        flex-direction: column; 
+        min-height: 100vh;
+        margin: 0; /* Removes default margin */
+      }
+      /* Center page content */
+    header{
+      text-align: center;
+    }
+    main{
+      text-align: center;
+      flex-grow: 1; /* Allows the main content to grow and fill available space */ 
+    }
+    footer {
+      text-align: center;
+      animation: flash 1s infinite; /* Apply the flash animation */
+    }
+
+    /* Keyframes for the flashing effect */
+    @keyframes flash {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    </style>
+  </head>
+  <body>
+    <header id="top">
+      <img src="./assets/Slimy-notes.png" alt="Slimy Notes" height="75"-
+    </header>
+    <br/>
+    <br/>
+    <br/>  
+    <main>
+      <a href="./Page2.html">
+      <img src="./assets/slime-ball.png" alt="Why is it looking?." width="350"/>
+      </a>
+    </main>
+    <br/>
+    <br/>   
+  <footer>
+      <img src="./assets/Dont.png" alt="DON'T TOUCH IT !" height="25">
+    </footer>
+  </body>
+</html>
