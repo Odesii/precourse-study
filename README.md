@@ -1,2 +1,2 @@
 # precourse-study
-course work from study 
+course work practice
