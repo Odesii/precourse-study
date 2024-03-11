@@ -23,5 +23,5 @@
 
 ## License
 
-    PLease see 'LICENSE' in the repo
+    Please see 'LICENSE' in the repo
 
